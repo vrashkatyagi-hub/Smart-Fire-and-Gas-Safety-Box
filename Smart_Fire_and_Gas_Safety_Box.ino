@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL3PHbsYkUP"
-#define BLYNK_TEMPLATE_NAME "FireGasMonitor"
-#define BLYNK_AUTH_TOKEN "Ym7ARgeAuDGo7k47_wSSBONtBcW-047I"
+#define BLYNK_TEMPLATE_ID "from BLYNK app"
+#define BLYNK_TEMPLATE_NAME "from BLYNK app"
+#define BLYNK_AUTH_TOKEN "from BLYNK app"
 
 #include <WiFi.h>
 #include <BlynkSimpleEsp32.h>
@@ -10,8 +10,8 @@
 #include <LiquidCrystal_PCF8574.h>
 
 char auth[] = BLYNK_AUTH_TOKEN;
-char ssid[] = "Galaxy A51 EE35";
-char pass[] = "vuip2201";
+char ssid[] = "wifi_name";
+char pass[] = "password";
 
 #define DHTPIN 14
 #define DHTTYPE DHT11
